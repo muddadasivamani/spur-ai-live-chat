@@ -1,3 +1,35 @@
+Starter Folder Structure
+spur-ai-chat/
+├── backend/
+│   ├── src/
+│   │   ├── routes/
+│   │   │   └── chat.ts
+│   │   ├── services/
+│   │   │   ├── chat.service.ts
+│   │   │   └── llm.service.ts
+│   │   ├── db/
+│   │   │   ├── prisma.ts
+│   │   │   └── schema.prisma
+│   │   ├── utils/
+│   │   │   └── validate.ts
+│   │   └── server.ts
+│   ├── .env.example
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── lib/api.ts
+│   │   ├── components/Chat.svelte
+│   │   └── routes/+page.svelte
+│   ├── package.json
+│   └── svelte.config.js
+│
+└── README.md
+
+
+
+
 # spur-ai-live-chat
 A mini AI-powered live chat support agent built with TypeScript, Svelte, and a real LLM, simulating a production-ready customer support workflow.
 
